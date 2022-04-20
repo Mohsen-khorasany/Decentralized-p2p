@@ -9,7 +9,7 @@ gamma=0.5; %permiums limit
 %%Bidding step
 
 % Sellers parameters
-seller_data = csvread('sellers1.csv', 1, 0);  
+seller_data = csvread('sellers.csv', 1, 0);  
 I_s= transpose(seller_data(:,1)); %Seller ID
 Q_s= -transpose(seller_data(:,2)); %Seller offer-Quantity 
 P_s= transpose(seller_data(:,3)); %Seller offer-Price
@@ -22,7 +22,7 @@ alpha_G_s= transpose(seller_data(:,9)); %Seller green energy permium
 Ns= size(seller_data,1); %Number of sellers
 
 % Buyers parameters
-buyer_data = csvread('buyers1.csv', 1, 0);
+buyer_data = csvread('buyers.csv', 1, 0);
 I_b= transpose(buyer_data(:,1)); %Buyer ID
 Q_b= transpose(buyer_data(:,2)); %Buyer offer-Quantity
 P_b= transpose(buyer_data(:,3)); %Buyer offer-Price
