@@ -224,6 +224,7 @@ set(gca,'fontname','times new roman', 'FontSize',8)
 xtickangle(90)
 
 figure %dailyperformance of prosumers
+%The data for this figure is taken from load/generation profile of prosumers and their energy trading over different time slots.
 %P2P trade of prosumers
 p2_p2p=[0.018	0.169	0.181	0.294	0.172	0.205	0.338	0.337	-1.017	-2.482	0.143	-0.955	-0.99	-0.962	-0.801	-1.393	-0.945	-1.122	-1.067	-1.202];
 p16_p2p=[-0.472	-0.684	-1.017	-1.247	-1.276	-1.43	-1.711	-2.004	-2.776	-3.063	-2.29	-2.614	-3.036	-2.611	-2.394	-2.589	-1.942	-1.732	-1.678	-1.346];
